@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@200;300;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #18191a;
+
+  font-family: "Koulen", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  color: white;
+  line-height: 1.5em;
+}
+
+.nav {
+  /*border: solid 1px red;*/
+  background-color: black;
+
+  height: 10vh;
+  width: 100vw;
+
+  /*padding: 1%;*/
+  padding-bottom: 50px;
+  padding-top: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  position: fixed;
+  bottom: 0;
+}
+
+.nav__item {
+  width: 30px;
+  height: 30px;
+
+  filter: invert(0.8);
+}
+
+.nav__item--highlight:active {
+  filter: invert(1);
+}
+
+.nav__item--button {
+  border-radius: 100px;
+
+  filter: none;
+  border: none;
+
+  font-size: 2.5em;
+
+  color: white;
+
+  /*padding-top: -15px;
+  margin-top: -15px;*/
+
+  /*background-color: blueviolet;*/
+
+  background-image: linear-gradient(50deg, hotpink, purple);
+
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__item--beam {
+  /*position: fixed;
+    bottom: 30px;*/
+
+  position: absolute;
+  z-index: -1;
+
+  bottom: 30px;
+
+  background-color: white;
+  border-radius: 100px;
+  height: 10px;
+  width: 30%;
+}
+
+/*nav {
+
+    position: fixed
+  
+  }*/
