@@ -1,15 +1,18 @@
+header {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
 h1 {
+  font-size: 1.125rem;
+  padding: 20px;
 }
 
 .profilimage {
   height: 2.5rem;
   border-radius: 1000px;
-}
-
-body {
-  background-color: #18191a;
-  color: white;
-  margin: 0;
 }
 
 .post {
@@ -23,6 +26,7 @@ body {
   width: 15px;
   height: 15px;
   filter: invert();
+  margin-top: 5px;
 }
 
 .icon {
@@ -31,7 +35,6 @@ body {
   justify-content: flex-start;
   align-content: stretch;
   gap: 1rem;
-  padding-bottom: 0.7rem;
 }
 
 .icon--bookmark {
@@ -45,15 +48,17 @@ body {
 
 .headline {
   position: absolute;
-  top: 0.5rem;
+  top: 1.5rem;
   left: 5.5rem;
+  font-size: 1rem;
+  line-height: 0.3;
 }
 .headline--time {
   position: absolute;
-  top: 2rem;
+  top: 1.4rem;
   left: -0.1rem;
   font-family: sans-serif;
-  font-size: 0.5em;
+  font-size: 0.8em;
   color: #656565;
 }
 
@@ -65,8 +70,24 @@ body {
   right: 2rem;
 }
 
-.picture {
+.pictures {
   height: 20rem;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
   border-radius: 2rem;
+}
+
+.container--picture {
+  display: flex;
+  flex-wrap: none;
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.header--icon {
+  width: 30px;
+  height: 30px;
+  filter: invert();
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
 }
