@@ -1,3 +1,19 @@
+@import "nav.css";
+@import "box.css";
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #18191a;
+  font-size: 1em;
+  font-family: "Koulen", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  color: white;
+  line-height: 1.5em;
 }
