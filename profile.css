@@ -48,6 +48,7 @@
 .profile__follow {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 40px;
 }
 
 .profile__button {
@@ -88,4 +89,7 @@
 
 body {
   height: 1000px;
+}
+.main {
+  padding-bottom: 100px;
 }
