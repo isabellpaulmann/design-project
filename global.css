@@ -1,5 +1,7 @@
 @import "nav.css";
 @import "box.css";
+@import "profile.css";
+@import "general.css";
 
 * {
   box-sizing: border-box;
