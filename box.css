@@ -178,7 +178,6 @@ li {
 }
 .dailypost {
   display: flex;
-  justify-content: ;
   flex-wrap: nowrap;
   position: relative;
   padding-bottom: 3em;
