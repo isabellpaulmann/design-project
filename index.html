@@ -9,9 +9,9 @@
   </head>
   <body>
     <main>
-    <header>
-      <h1>Good Morning, Alex.</h1>
-      <img class="header--icon" src="images/icons/email(1).png" alt="inbox" />
+    <header class="header">
+      <h1 class="header__heading" >Good Morning, Alex.</h1>
+      <img class="header__icon" src="images/icons/email(1).png" alt="inbox" />
     </header>
     <section class="container--picture2">
       <img
@@ -23,48 +23,59 @@
       <img class="pictures" src="./images/image2.png" alt="skyscraper" />
     </section>
 
-    <nav class="navi">
-      <!--NAVIGATION-->
+    <nav class="navi"> <!--X-->
 
-      <a href="">
-        <img
-          class="navi__item navi__item--highlight"
-          src="images/icons/list.png"
-          alt="list menue"
-        />
-      </a>
+      <ul class="navi-list" role="list">
+        <li class="navi-list__icon">
+          <a href="index.html">
+            <img
+              class="navi__item"
+              src="images/icons/list.png"
+              alt="Newsfeed"
+            />
+          </a>
+        </li>
+        <li class="navi-list__icon">
+          <a href="search.html">
+            <img
+              class="navi__item"
+              src="images/icons/lupe.png"
+              alt="search"
+            />
+          </a>
+        </li>
+        <li class="navi-list__icon">          
+          <button class="navi__item navi__item--button">
+          <img class="navi__item" src="images/icons/plus.png" alt="Add post" />
+        </button>
+        <div class="navi__item--beam"></div>
+      </li>
 
-      <a href="">
-        <img
-          class="navi__item navi__item--highlight"
-          src="images/icons/lupe.png"
-          alt="search"
-        />
-      </a>
+        <li class="navi-list__icon">          
+          <a href="alert.html">
+            <img
+              class="navi__item"
+              src="images/icons/glocke.png"
+              alt="notifications"
+            />
+          </a>
+        </li>
 
-      <button class="navi__item navi__item--button">
-        <img class="navi__item" src="images/icons/plus.png" alt="Mainbutton" />
-      </button>
-      <!--MIDDLE-->
+        <li class="navi-list__icon">
+          <a href="profile.html">
+            <img
+              class="navi__item "
+              src="images/icons/benutzer.png"
+              alt="profile"
+            />
+          </a>
+        </li>
 
-      <a href="">
-        <img
-          class="navi__item navi__item--highlight"
-          src="images/icons/glocke.png"
-          alt="notifications"
-        />
-      </a>
+      </ul>
 
-      <a href="">
-        <img
-          class="navi__item navi__item--highlight"
-          src="images/icons/benutzer.png"
-          alt="profile"
-        />
-      </a>
 
-      <div class="navi__item--beam"></div>
-    </nav>
+
+    </nav> <!--X-->
 
     <section class="newsfeed"></section>
 

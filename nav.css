@@ -20,6 +20,17 @@
   z-index: 1;
 }
 
+.navi-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.navi-list__icon {
+  border: none;
+}
+
 .navi__item {
   width: 30px;
   height: 30px;
@@ -27,7 +38,7 @@
   filter: invert(0.8);
 }
 
-.navi__item--highlight:active {
+.:active {
   filter: invert(1);
 }
 
